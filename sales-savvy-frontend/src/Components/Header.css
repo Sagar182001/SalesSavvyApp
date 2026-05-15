@@ -1,0 +1,41 @@
+.header {
+  background: #ffd8a8;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-form {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.search-form button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: white;
+}
+
+.header-icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}

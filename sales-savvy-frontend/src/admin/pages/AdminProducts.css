@@ -1,0 +1,106 @@
+.admin-products {
+  padding: 10px;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.products-header h2 {
+  font-size: 22px;
+}
+
+.add-btn {
+  padding: 8px 14px;
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #1f2937;
+}
+
+.add-product-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.size-btn {
+  background-color: #222;
+}
+
+
+/* TABLE */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.products-table th,
+.products-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.products-table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+/* IMAGE */
+.product-img {
+  width: 60px;
+  height: 70px;
+  object-fit: contain;
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+/* ACTIONS */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  padding: 6px 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .products-table {
+    display: block;
+    overflow-x: auto;
+  }
+}

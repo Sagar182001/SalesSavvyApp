@@ -1,0 +1,50 @@
+.admin-product-form {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.admin-product-form h2 {
+  margin-bottom: 15px;
+}
+
+.admin-product-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-product-form input,
+.admin-product-form textarea,
+.admin-product-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.admin-product-form button {
+  background: #111827;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-product-form button:hover {
+  background: #1f2937;
+}
+
+
+.size-presets {
+  margin-bottom: 10px;
+}
+
+.size-presets button {
+  margin-right: 8px;
+  margin-bottom: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.checkout-page {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  background: #f1f5f9;
+}
+
+/* LEFT */
+.checkout-left {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+/* ADDRESS */
+.address-card {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.address-card input {
+  margin-top: 4px;
+}
+
+/* ADD ADDRESS FORM */
+.address-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.address-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.address-form input:nth-child(6),
+.address-form input:nth-child(7),
+.address-form button {
+  grid-column: span 2;
+}
+.address-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Make select span full width like button */
+.address-form select {
+  grid-column: span 2;
+}
+
+.save-address-btn {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ORDER ITEMS */
+.checkout-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.checkout-item img {
+  width: 90px;
+  height: 110px;
+  object-fit: contain;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.checkout-item-details h4 {
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.checkout-item-details p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* RIGHT */
+.checkout-right {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.place-order-btn {
+  width: 100%;
+  background: #ff7a00;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 20px;
+}
